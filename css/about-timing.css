@@ -1,0 +1,142 @@
+/****************
+* ABOUT - TIMING
+*****************/
+
+.about {
+   background-color: var(--color-primary);
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .timing {
+    width: 33%;
+    position: relative;
+    top: -50px;
+
+    background-image: url(/img/brush-big.jpg);
+
+    padding: 20px;
+}
+
+.about .timing .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+
+    padding: 40px 20px;
+
+    text-align: center;
+}
+
+.about .timing .icon-cut {
+    height: 50px;
+}
+
+.about .timing h3 {
+    color: var(--color-primary);
+    font-size: 30px;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid var(--color-primary);
+
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.about .timing .text {
+    margin: 10px 0;
+}
+
+.about .timing .text::after {
+    content: '•';
+    display: block;
+    color: var(--color-font-white);
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.about .timing .text:last-of-type:after {
+    content: '|';
+}
+
+.about .timing .text h4 {
+    color: var(--color-font-gray);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.about .timing span {
+    color: var(--color-font-white);
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+}
+
+
+/********************
+* ABOUT - EXPERIENCE
+*********************/
+
+.about .experience {
+    width: 66%;
+    color: var(--color-font-white);
+    margin-left: 7%;
+    margin-top: 100px;
+}
+
+.about .experience H2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.about .experience H2::after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: var(--color-bg-beige);
+    margin: 20px 0;
+}
+
+.about .experience .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .experience p {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+@media (max-width:1160px) {
+    .about .container {
+        width: 100%;
+    }
+
+    .about .experience {
+        margin-left: 3%;
+
+    }
+    .about .experience img {
+        display: none;
+    }
+    
+    .about .experience p {
+        font-size: 15px;
+        width: 90%;
+    }   
+}
+
+
+@media (max-width:650px) {
+
+
+    .about .experience {
+        display: none;
+    }
+    .about .timing {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}

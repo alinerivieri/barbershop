@@ -1,0 +1,70 @@
+/********************
+* SERVICES
+*********************/
+
+.services {
+    background-color: var(--color-primary-light);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services h2 {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.services .boxes {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .box {
+    background-color: var(--color-bg-beige-light);
+    border: 2px solid var(--color-bg-beige-light);
+    box-shadow: 1px 1px 3px var(--color-primary);
+    border-radius: 9px;
+    padding: 50px 40px;
+    margin: 30px;
+}
+
+.services .box h4 {
+    color: var(--color-secondary);
+    margin-top: 30px;
+}
+
+.services .box p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+@media (max-width: 1160px) {
+    .services {
+        padding: 20px;
+    }
+
+    .services .container {
+        width: 100%;
+    }
+
+    .services .boxes {
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .services .box {
+        padding: 20px 10px;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .services h2 {
+        font-size: 40px;
+    }
+
+
+}

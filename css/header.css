@@ -1,0 +1,67 @@
+/****************
+* HOME - HEADER
+*****************/
+#btn-mobile {
+    display: none;
+  }
+  
+.home {
+    background-size: cover;
+    background-image: url(../img/bg-home.jpg);
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+}
+
+.home .header  {
+    padding: 30px 0;
+}
+
+.home .header .nav {
+    display: flex;
+    justify-content: center;
+}
+
+.home .header .nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.home .header .nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.home .header .nav ul li a{
+    color: var(--color-font-white);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.home .header .nav ul li a:hover{
+    border-bottom: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.home .header .nav ul li .logo {
+    margin: 0 40px;
+}
+
+
+@media (max-width:1169px) {
+    .home {
+        background-position: bottom;
+        height: 60vh;
+    }    
+    .home .header .nav ul li{
+        width: 100%;
+    }
+    .home .header .nav ul li a {
+        display: none; 
+}
+
+}

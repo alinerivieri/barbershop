@@ -1,0 +1,46 @@
+/****************
+* COMMON
+*****************/
+
+:root {
+    --color-primary: #917758;
+    --color-primary-light:#f5eee6;
+    --color-secondary: #3c2915;
+    --color-font-white: #fff;
+    --color-font-gray: #C0C0C0;
+    --color-bg-black: #191919;
+    --color-bg-beige:#a38f78;
+    --color-bg-beige-light:#d8c7b3;
+}
+
+::selection {
+    color: var(--color-font-white);
+    background-color: var(--color-primary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1000px) {
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+    }
+}

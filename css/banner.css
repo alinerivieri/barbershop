@@ -1,0 +1,52 @@
+/****************
+* HOME - BANNER
+*****************/
+
+.home .banner {
+    color: var(--color-font-white);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.home .banner span {
+    display: block;
+}
+
+.home .banner .slogan1 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.home .banner h1 {
+    font-size: 120px;
+}
+
+.home .banner .slogan2 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1160px) {
+    .home .banner h1 {
+        font-size: 90px;
+    }
+
+    .home .banner {
+        margin-top: 3%;
+}
+
+@media (max-width: 580px) {
+    .home .banner h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+    .home .banner h1 {
+        font-size: 40px;
+    }
+}
+}
