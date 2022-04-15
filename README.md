@@ -1,7 +1,7 @@
 
 # Landing page BARBER SHOP
 
-This project was developed based on Thiago Medeiros' "Fullstack Training" course.
+This project was developed based on Thiago Medeiros (@thiagommedeiros) "Fullstack Training" course.
 
 In this project I applied HTML and CSS concepts, making some improvements in the original project presented in class.
 
@@ -33,5 +33,5 @@ In this project I applied HTML and CSS concepts, making some improvements in the
 
 💻 Result:
 
-Veja a aplicação [aqui](https://landing-rivis.vercel.app/)
+Veja a aplicação [aqui](https://barbershop-ivory.vercel.app/)
 ![Preview page GIF](./img/preview.gif)
